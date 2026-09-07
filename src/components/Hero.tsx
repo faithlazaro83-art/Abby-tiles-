@@ -52,14 +52,10 @@ export default function Hero() {
               </a>
             </div>
             
-            <div className="mt-12 grid grid-cols-3 gap-6 border-t border-stone-200 pt-8">
+            <div className="mt-12 grid grid-cols-2 gap-6 border-t border-stone-200 pt-8">
               <div>
                 <div className="text-3xl font-bold text-stone-900">10+</div>
                 <div className="text-sm text-stone-500 uppercase tracking-wider font-semibold">Miaka ya Uzoefu</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-stone-900">500+</div>
-                <div className="text-sm text-stone-500 uppercase tracking-wider font-semibold">Miradi Imekamilika</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-stone-900">100%</div>

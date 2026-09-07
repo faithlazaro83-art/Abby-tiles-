@@ -75,21 +75,7 @@ export default function About() {
               ))}
             </div>
             
-            <div className="mt-12 flex items-center gap-6">
-              <div className="flex -space-x-4">
-                {[1, 2, 3, 4].map((i) => (
-                  <img
-                    key={i}
-                    src={`https://i.pravatar.cc/100?img=${i + 10}`}
-                    alt="Customer"
-                    className="w-12 h-12 rounded-full border-4 border-white shadow-md"
-                  />
-                ))}
-              </div>
-              <p className="text-stone-600 font-medium">
-                Wateja <span className="text-stone-900 font-bold">500+</span> wameridhika na huduma zetu
-              </p>
-            </div>
+
           </motion.div>
         </div>
       </div>
