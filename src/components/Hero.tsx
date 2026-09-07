@@ -14,17 +14,14 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-4 p-1.5 pr-6 rounded-2xl bg-white text-stone-900 text-sm font-bold mb-8 shadow-xl border border-stone-100">
+            <div className="inline-flex items-center gap-3 p-1 pr-4 rounded-full bg-red-50 text-red-600 text-[10px] font-black uppercase tracking-[0.2em] mb-6 border border-red-100">
               <img 
                 src="/IMG-20260907-WA0021.jpg" 
                 alt="Logo" 
-                className="h-14 w-auto rounded-xl shadow-sm"
+                className="h-6 w-auto rounded-full"
                 referrerPolicy="no-referrer"
               />
-              <div className="flex flex-col leading-none">
-                <span className="text-red-600 uppercase tracking-widest text-[10px]">Professional Service</span>
-                <span className="uppercase tracking-tighter text-lg font-black">Fundi Tiles TZ</span>
-              </div>
+              Professional Service
             </div>
             <h1 className="text-5xl md:text-7xl font-black text-stone-900 leading-tight mb-6 uppercase">
               Abby Fundi <br />
@@ -70,17 +67,17 @@ export default function Hero() {
             transition={{ duration: 1 }}
             className="relative"
           >
-            <div className="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl relative group">
+            <div className="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl relative group border-8 border-white">
               <img
-                src="/IMG-20260907-WA0013.jpg"
-                alt="Luxury Marble Tiles by Abby Fundi Tiles TZ"
+                src="/IMG-20260907-WA0021.jpg"
+                alt="Abby Fundi Tiles TZ Official Logo"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-stone-900/40 to-transparent"></div>
               <div className="absolute bottom-8 left-8 text-white">
-                <p className="text-yellow-400 font-bold uppercase tracking-widest text-xs mb-2 underline decoration-red-600 underline-offset-4">Premium Quality</p>
-                <h3 className="text-2xl font-bold">Umaridadi wa Marble</h3>
+                <p className="text-yellow-400 font-bold uppercase tracking-widest text-xs mb-2">Official Identity</p>
+                <h3 className="text-2xl font-bold">Fundi Tiles TZ</h3>
               </div>
             </div>
             
