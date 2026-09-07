@@ -8,17 +8,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center gap-5 mb-8">
+            <div className="flex items-center mb-8">
               <img 
                 src="/IMG-20260907-WA0021.jpg" 
                 alt="Abby Fundi Tiles TZ Logo" 
-                className="h-20 w-auto rounded-xl shadow-2xl border-2 border-white/20"
+                className="h-28 w-auto rounded-2xl shadow-2xl border-2 border-white/10"
                 referrerPolicy="no-referrer"
               />
-              <div className="flex flex-col">
-                <span className="font-black text-white text-2xl leading-tight uppercase tracking-tight">Abby Fundi Tiles TZ</span>
-                <span className="text-xs text-red-500 font-bold tracking-widest uppercase">Ubora wa Tiles kwa Kila Nafasi</span>
-              </div>
             </div>
             <p className="text-stone-400 text-lg leading-relaxed max-w-md font-medium">
               Sisi ni wataalamu wa kuleta umaridadi na thamani kwenye nyumba yako kupitia tiles za kisasa na zenye ubora wa hali ya juu. Tunapatikana Dar es Salaam kwa huduma zote za ufungaji na uuzaji.

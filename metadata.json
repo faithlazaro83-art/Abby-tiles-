@@ -2,5 +2,7 @@
   "name": "Abby Fundi Tiles TZ",
   "description": "Wataalamu wa uuzaji na ufungaji wa tiles za kisasa (ceramic, porcelain, na marble) Dar es Salaam, Tanzania.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

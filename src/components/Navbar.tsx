@@ -17,17 +17,13 @@ export default function Navbar() {
     <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-stone-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          <div className="flex-shrink-0 flex items-center gap-3">
+          <div className="flex-shrink-0 flex items-center">
             <img 
               src="/IMG-20260907-WA0021.jpg" 
               alt="Abby Fundi Tiles TZ Logo" 
-              className="h-16 w-auto rounded-lg shadow-md border-2 border-red-600/10"
+              className="h-16 w-auto rounded-lg shadow-md border-2 border-red-600/10 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
             />
-            <div className="flex flex-col">
-              <span className="font-black text-stone-900 text-xl leading-tight uppercase tracking-tight">Abby Fundi</span>
-              <span className="text-[11px] text-red-600 font-bold tracking-widest uppercase">Tiles TZ</span>
-            </div>
           </div>
           
           <div className="hidden md:flex space-x-8">

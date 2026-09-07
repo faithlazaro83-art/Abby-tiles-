@@ -14,16 +14,16 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-4 px-4 py-2 rounded-2xl bg-white text-stone-900 text-sm font-bold mb-8 shadow-xl border border-stone-100">
+            <div className="inline-flex items-center gap-4 p-1.5 pr-6 rounded-2xl bg-white text-stone-900 text-sm font-bold mb-8 shadow-xl border border-stone-100">
               <img 
                 src="/IMG-20260907-WA0021.jpg" 
                 alt="Logo" 
-                className="h-10 w-auto rounded-md"
+                className="h-14 w-auto rounded-xl shadow-sm"
                 referrerPolicy="no-referrer"
               />
               <div className="flex flex-col leading-none">
-                <span className="uppercase tracking-tighter text-base">Abby Fundi Tiles TZ</span>
-                <span className="text-[10px] text-red-600 uppercase tracking-widest">Ubora wa Hali ya Juu</span>
+                <span className="text-red-600 uppercase tracking-widest text-[10px]">Professional Service</span>
+                <span className="uppercase tracking-tighter text-lg font-black">Fundi Tiles TZ</span>
               </div>
             </div>
             <h1 className="text-5xl md:text-7xl font-black text-stone-900 leading-tight mb-6 uppercase">

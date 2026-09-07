@@ -39,6 +39,10 @@ export default function Gallery() {
       caption: 'Fundi akikagua ufungaji wa tiles kwenye sakafu ya nje'
     },
     {
+      url: '/IMG-20260907-WA0012.jpg',
+      caption: 'Fundi akiendelea na kazi ya kumalizia sehemu ya kuta'
+    },
+    {
       url: '/IMG-20260907-WA0007.jpg',
       caption: 'Eneo la kazi likiwa tayari kwa hatua ya kumalizia'
     }
