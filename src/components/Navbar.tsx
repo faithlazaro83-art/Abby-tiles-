@@ -21,12 +21,12 @@ export default function Navbar() {
             <img 
               src="/IMG-20260907-WA0021.jpg" 
               alt="Abby Fundi Tiles TZ Logo" 
-              className="h-14 w-auto rounded-lg shadow-sm"
+              className="h-16 w-auto rounded-lg shadow-md border-2 border-red-600/10"
               referrerPolicy="no-referrer"
             />
             <div className="flex flex-col">
-              <span className="font-bold text-stone-900 text-lg leading-tight uppercase tracking-tight">Abby Fundi</span>
-              <span className="text-[10px] text-stone-500 font-medium tracking-widest uppercase">Tiles TZ</span>
+              <span className="font-black text-stone-900 text-xl leading-tight uppercase tracking-tight">Abby Fundi</span>
+              <span className="text-[11px] text-red-600 font-bold tracking-widest uppercase">Tiles TZ</span>
             </div>
           </div>
           

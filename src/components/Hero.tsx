@@ -14,9 +14,17 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 text-red-600 text-sm font-bold mb-6 border border-red-100">
-              <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
-              Wataalamu wa Tiles Tanzania
+            <div className="inline-flex items-center gap-4 px-4 py-2 rounded-2xl bg-white text-stone-900 text-sm font-bold mb-8 shadow-xl border border-stone-100">
+              <img 
+                src="/IMG-20260907-WA0021.jpg" 
+                alt="Logo" 
+                className="h-10 w-auto rounded-md"
+                referrerPolicy="no-referrer"
+              />
+              <div className="flex flex-col leading-none">
+                <span className="uppercase tracking-tighter text-base">Abby Fundi Tiles TZ</span>
+                <span className="text-[10px] text-red-600 uppercase tracking-widest">Ubora wa Hali ya Juu</span>
+              </div>
             </div>
             <h1 className="text-5xl md:text-7xl font-black text-stone-900 leading-tight mb-6 uppercase">
               Abby Fundi <br />

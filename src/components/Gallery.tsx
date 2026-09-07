@@ -4,47 +4,43 @@ export default function Gallery() {
   const images = [
     {
       url: '/IMG-20260907-WA0009.jpg',
-      caption: 'Ufungaji wa tiles za marble kwenye ngazi na sakafu'
-    },
-    {
-      url: '/IMG-20260907-WA0016.jpg',
-      caption: 'Timu yetu ikiwa eneo la mradi kabla ya kazi'
-    },
-    {
-      url: '/IMG-20260907-WA0012.jpg',
-      caption: 'Fundi akikata na kupima tiles kwa usahihi'
-    },
-    {
-      url: '/IMG-20260907-WA0011.jpg',
-      caption: 'Mchakato wa ufungaji wa tiles za nje (outdoor)'
-    },
-    {
-      url: '/IMG-20260907-WA0010.jpg',
-      caption: 'Tiles zilizopangwa tayari kwa ufungaji, zikiwa na muundo safi'
-    },
-    {
-      url: '/IMG-20260907-WA0007.jpg',
-      caption: 'Fundi akiendelea na kazi ya kumalizia sehemu ya nje'
-    },
-    {
-      url: '/IMG-20260907-WA0011.jpg',
-      caption: 'Maandalizi ya ufungaji wa tiles jioni ya kazi'
+      caption: 'Kazi iliyokamilika — Sakafu ya ndani yenye tiles za marble zenye kung\'aa'
     },
     {
       url: '/IMG-20260907-WA0018.jpg',
-      caption: 'Ufungaji wa tiles za marble ukutani'
+      caption: 'Fundi akiendelea na ufungaji wa tiles za nje (outdoor tiles)'
+    },
+    {
+      url: '/IMG-20260907-WA0013.jpg',
+      caption: 'Ufungaji wa tiles za marble kwenye ngazi kwa ustadi mkubwa'
+    },
+    {
+      url: '/IMG-20260907-WA0011.jpg',
+      caption: 'Hatua za ufungaji wa tiles na maandalizi ya usawa wa sakafu'
+    },
+    {
+      url: '/IMG-20260907-WA0008.jpg',
+      caption: 'Ufungaji wa tiles za marble ukutani kwa muundo wa kisasa'
+    },
+    {
+      url: '/IMG-20260907-WA0006.jpg',
+      caption: 'Maandalizi na vifaa vya kazi eneo la mradi kabla ya kuanza'
     },
     {
       url: '/IMG-20260907-WA0017.jpg',
-      caption: 'Muonekano wa karibu wa tiles za marble baada ya kufungwa'
+      caption: 'Muonekano wa karibu wa tiles za marble zilizofungwa kwa usahihi'
     },
     {
-      url: '/IMG-20260907-WA0013.jpg',
-      caption: 'Sakafu ya ndani ikiwa na muunganiko wa tiles nyeupe na nyeusi'
+      url: '/IMG-20260907-WA0016.jpg',
+      caption: 'Mchakato wa ufungaji wa tiles za ngazi za nje'
     },
     {
-      url: '/IMG-20260907-WA0013.jpg',
-      caption: 'Kazi iliyokamilika — sakafu ya chumba yenye tiles za marble zenye kung\'aa'
+      url: '/IMG-20260907-WA0010.jpg',
+      caption: 'Fundi akikagua ufungaji wa tiles kwenye sakafu ya nje'
+    },
+    {
+      url: '/IMG-20260907-WA0007.jpg',
+      caption: 'Eneo la kazi likiwa tayari kwa hatua ya kumalizia'
     }
   ];
 
